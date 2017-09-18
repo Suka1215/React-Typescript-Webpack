@@ -1,11 +1,5 @@
-import * as React from "react";
-import { render } from "react-dom";
-import * as Rx from "rxjs";
+import * as React from 'react';
+import { render } from 'react-dom';
+import Layout from './components/Layout';
 
-const observer = Rx.Observable.of(1, 2, 3);
-
-console.log(observer);
-
-const App = () => <h1>Hello From React Typescript</h1>;
-
-render(<App />, document.getElementById("root"));
+render(<Layout />, document.getElementById('root'));
