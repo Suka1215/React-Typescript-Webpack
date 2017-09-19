@@ -4,7 +4,8 @@
   "description": "React Started Application With Typescript",
   "main": "./dist/index.html",
   "scripts": {
-    "start": "webpack-dev-server --content-base dist/"
+    "start": "webpack-dev-server --content-base dist/",
+    "build": "rm -rf dist/*.js && rm -rf dist/*.map && webpack"
   },
   "author": "Mark Miller",
   "license": "ISC",
@@ -30,6 +31,6 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "rxjs": "^5.4.3",
-    "typescript": "2.4"
+    "typescript": "^2.5.2"
   }
 }
