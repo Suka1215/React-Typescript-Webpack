@@ -4,7 +4,7 @@ export default class HeaderTitle extends React.Component {
 
   render() {
     return (
-      <h1>React Typescript and Webpack Scaffold</h1>
+      <button className='button is-primary'>Button</button>
     )
   }
 
