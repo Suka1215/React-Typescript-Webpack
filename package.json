@@ -5,7 +5,11 @@
   "main": "./dist/index.html",
   "scripts": {
     "start": "webpack-dev-server --content-base dist/",
+<<<<<<< HEAD
     "build": "rm -rf dist/*.js && rm -rf dist/*.map  && webpack"
+=======
+    "build": "rm -rf dist/*.js && rm -rf dist/*.map && webpack"
+>>>>>>> 1bcea4a8b11e1da62f31456d9110e237f70987f5
   },
   "author": "Mark Miller",
   "license": "ISC",
