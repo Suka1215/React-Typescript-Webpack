@@ -1,19 +1,16 @@
 import * as React from 'react';
-import * as mob from 'mobx';
 
-export default class HeaderTitle extends React.Component {
-  public Todo() {
-    const id = Math.random()
-    mob.extendObservable(this, {
-        title: "",
-        finished: false
-    })
+// tslint:disable-next-line:no-empty-interface
+export interface IHeaderTitleProperties {
+  compiler: string;
+  framework: string;
 }
 
+export default class Title extends React.Component<IHeaderTitleProperties, any> {
   render() {
+    console.log(this.props);
     return (
-      <button className='button is-primary'>Button</button>
-    )
+      <h1>this is {this.props.compiler} and then it is {this.props.framework}</h1>
+    );
   }
-
 }

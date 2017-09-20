@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "target": "es5",
-        "module": "es2015",
+        "module": "commonjs",
         "moduleResolution": "node",
         "jsx": "react",
         "noImplicitAny": true,
@@ -11,6 +11,9 @@
             "node"
         ]
     },
+    "include": [
+        "./src/**/*"
+    ],
     "exclude": [
         "node_modules"
     ],

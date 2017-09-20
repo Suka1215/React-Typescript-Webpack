@@ -48,7 +48,7 @@
         "no-debugger": true,
         "no-duplicate-variable": true,
         "no-empty": false,
-        "no-empty-interface": true,
+        "no-empty-interface": false,
         "no-eval": true,
         "no-inferrable-types": [
             true,
@@ -62,7 +62,6 @@
         "no-unused-expression": true,
         "no-use-before-declare": true,
         "no-var-keyword": true,
-        "object-literal-sort-keys": false,
         "one-line": [
             true,
             "check-open-brace",
@@ -77,7 +76,7 @@
         ],
         "radix": true,
         "semicolon": [
-            "always"
+            true
         ],
         "triple-equals": [
             true,
